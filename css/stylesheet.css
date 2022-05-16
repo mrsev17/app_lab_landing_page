@@ -150,40 +150,74 @@ a {
     --logo-size: 30px;
     --small-titles-size: 20px;
     --text-size: 16px;
-
+    --main-title-font: 60px;
 }
 
 /* ===== Main Styles ===== */
 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/* ===== ----------- ===== */
+
 header {
     margin-top: 108px;
+
+    padding-bottom: 108px;
+
+}
+
+header .background-container__header {
+    background-image: url(../assets/images/background_header.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+header .background-container-second__header {
+    background-image: url(../assets/images/Vector_Smart_Object.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: -180px;
+    background-size: 100%;
+    
 }
 
 header .container-logo-nav__header {
     width: 100%;
-    min-width: 1380px;
-    padding: 0 210px;
+    max-width: 1280px;
+    padding: 0 30px;
+    margin: 0 auto;
 }
 
 header .title-logo {
     font-size: var(--logo-size);
     font-weight: 700;
 }
+
 header .title-logo span {
     color: var(--logo-part-color);
 }
+
 header .container-logo-nav__header {
     display: flex;
     justify-content: space-between;
 }
+
 header nav ul {
     display: flex;
     gap: 38px;
 }
+
 .header .wrapper-navigation__header {
     display: flex;
     justify-content: flex-end;
 }
+
 header #for-free {
     background-color: var(--accent-color-one);
     color: white;
@@ -194,4 +228,79 @@ header #for-free {
 
 header .wrapper-main-content__header {
     display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+header .title-description__header {
+    background-image: url(../assets/images/Layer_3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 120%;
+}
+
+header .text-editor-choice {
+    background-color: #e2eaed;
+    width: 100%;
+    max-width: 325px;
+    border-radius: 48px;
+}
+
+header .text-editor-choice figure img {
+    background-color: orange;
+    border-radius: 50px;
+    padding: 6px 6px
+}
+
+header .text-editor-choice {
+    display: flex;
+    margin-top: 220px;
+}
+
+header .text-editor-choice p {
+    background-color: #e2eaed;
+    border-radius: 50px;
+    padding: 5px 40px 0 10px;
+}
+
+header .wrapper-main-content__header .main-title__header {
+    margin-top: 28px;
+}
+
+header .wrapper-main-content__header .main-title__header h1 {
+    font-size: var(--main-title-font);
+    max-width: 600px;
+    width: 100%;
+    line-height: 75px;
+}
+
+header .wrapper-main-content__header .main-description__header {
+    margin-top: 10px;
+}
+
+header .wrapper-main-content__header .main-description__header p {
+    width: 100%;
+    max-width: 520px;
+    opacity: 0.7;
+}
+
+header .wrapper-main-content__header .wrapper-buttons__header {
+    margin-top: 30px;
+    display: flex;
+    gap: 60px;
+}
+
+header .wrapper-main-content__header .wrapper-buttons__header a {
+    color: #2500f9;
+    padding: 20px 35px 20px 35px;
+    border-radius: 30px;
+}
+
+header .wrapper-main-content__header .wrapper-buttons__header a:hover {
+    background-color: var(--accent-color-one);
+    color: white;
+    padding: 20px 35px 20px 35px;
+    border-radius: 30px;
+    transition: 0.7s;
 }
