@@ -172,14 +172,14 @@ header {
 }
 
 header .background-container__header {
-    background-image: url(../assets/images/background_header.png);
+    background-image: url("../assets/images/background_header.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
 }
 
 header .background-container-second__header {
-    background-image: url(../assets/images/Vector_Smart_Object.png);
+    background-image: url("../assets/images/Vector_Smart_Object.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-x: -180px;
@@ -234,7 +234,7 @@ header .wrapper-main-content__header {
 }
 
 header .title-description__header {
-    background-image: url(../assets/images/Layer_3.png);
+    background-image: url("../assets/images/Layer_3.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 120%;
@@ -303,4 +303,31 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     padding: 20px 35px 20px 35px;
     border-radius: 30px;
     transition: 0.7s;
+}
+
+
+
+/* Media Queries / Adaptive breakpoint */
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+
+    header {
+        margin-top: 0;
+        padding-bottom: 30px;
+    }
+
+    header .container-logo-nav__header {
+        max-width: 420px;
+        padding: 0 15px;
+    }
+
+    .container {
+        max-width: 380px;
+        padding: 0 15px;
+    }
+
+
+
+
+
 }
