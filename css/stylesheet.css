@@ -160,6 +160,20 @@ a {
 
 /* ===== Main Styles ===== */
 
+.btn {
+    color: #2500f9;
+    padding: 20px 35px 20px 35px;
+    border-radius: 30px;
+    border: 2px solid var(--accent-color-one);
+}
+.btn:hover {
+    background-color: var(--accent-color-one);
+    color: white;
+    padding: 20px 35px 20px 35px;
+    border-radius: 30px;
+    transition: 0.7s;
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -296,6 +310,8 @@ header .wrapper-main-content__header .wrapper-buttons__header {
     gap: 60px;
 }
 
+/*
+
 header .wrapper-main-content__header .wrapper-buttons__header a {
     color: #2500f9;
     padding: 20px 35px 20px 35px;
@@ -310,6 +326,7 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     transition: 0.7s;
 }
 
+*/
 
 /* Styles for section awesome apps */
 
@@ -525,11 +542,51 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
 
 .integration {
     margin-top: 100px;
+
+}
+.integration .wrapper__integration {
+    display: flex;
+    justify-content: center;
+    gap: 111px;
+}
+.integration .left-item__integration figure img {
+    width: 100%;
+    max-width: 598px;
+    max-height: 547px;
+}
+
+.integration .wrapper__integration .title__integration h2 {
+    margin-top: 110px;
+    font-size: var(--section-titles);
+    width: 100%;
+    max-width: 349px;
+}
+.integration .wrapper__integration .text__integration p {
+    margin-top: 29px;
+    width: 100%;
+    max-width: 406px;
+}
+.integration .learn-more__integration {
+    margin-top: 64px;
+}
+
+.integration .left-item__integration figure img {
+    width: 100%;
+    /* Style for "Vector Sma" */
+    max-width: 598px;
+    max-height: 547px;
 }
 
 
 
 
+
+/* Advantages */
+
+.advantages {
+    margin-top: 73px;
+    border-bottom: 1px solid grey;
+}
 
 
 
