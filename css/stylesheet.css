@@ -151,6 +151,8 @@ a {
     --small-titles-size: 20px;
     --text-size: 16px;
     --main-title-font: 60px;
+
+    --opacity-text: 0.7;
 }
 
 /* ===== Main Styles ===== */
@@ -282,7 +284,7 @@ header .wrapper-main-content__header .main-description__header {
 header .wrapper-main-content__header .main-description__header p {
     width: 100%;
     max-width: 520px;
-    opacity: 0.7;
+    opacity: var(--opacity-text);
 }
 
 header .wrapper-main-content__header .wrapper-buttons__header {
@@ -304,6 +306,153 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     border-radius: 30px;
     transition: 0.7s;
 }
+
+
+/* Styles for section awesome apps */
+
+.awesome-apps .text-trusted__awesome-apps p {
+    text-align: center;
+    opacity: var(--opacity-text);
+}
+
+.awesome-apps .wrapper-companies-like__awesome-apps {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.awesome-apps .wrapper-main-content__awesome-apps {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.awesome-apps .part-left__awesome-apps {
+    background-image: url("../assets/images/ellipse_two.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: 0;
+    background-position-y: 150px;
+    background-size: 100%;
+}
+
+.awesome-apps .container-background__awesome-apps {
+    background-image: url("../assets/images/ellipse_one.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: 0;
+    background-position-y: 300px;
+}
+
+.awesome-apps .container-background__awesome-apps figure {
+    background-image: url("../assets/images/shape_random.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: -100px;
+    background-position-y: 80px;
+}
+
+.awesome-apps .wrapper-main-content__awesome-apps .title__awesome-apps h2 {
+    font-size: var(--section-titles);
+    width: 100%;
+    max-width: 300px;
+}
+
+.awesome-apps .wrapper-main-content__awesome-apps .text__awesome-apps p {
+    font-size: var(--text-size);
+    opacity: var(--opacity-text);
+    width: 100%;
+    max-width: 450px;
+    margin-top: 20px;
+}
+
+.awesome-apps .wrapper-advantages__awesome-apps {
+    margin-top: 92px;
+    display: flex;
+    gap: 40px;
+}
+.awesome-apps .left-part-advantages__awesome-apps {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.awesome-apps .left-part-advantages__awesome-apps .first-icon__awesome-apps img {
+    margin-top: 30px;
+}
+.awesome-apps .left-part-advantages__awesome-apps .second-icon__awesome-apps {
+    margin-top: -40px;
+}
+.awesome-apps .left-part-advantages__awesome-apps .third-icon__awesome-apps {
+    margin-top: -40px;
+}
+.awesome-apps .left-part-advantages__awesome-apps .first-icon__awesome-apps {
+    background-image: url("../assets/icons/speed_background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    padding: 14px 12px;
+}
+.awesome-apps .left-part-advantages__awesome-apps .second-icon__awesome-apps {
+    background-image: url("../assets/icons/prototyping_background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    padding: 14px 12px;
+}
+.awesome-apps .left-part-advantages__awesome-apps .third-icon__awesome-apps {
+    background-image: url("../assets/icons/vector_background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    padding: 14px 12px;
+}
+.awesome-apps .right-part-advantages__awesome-apps {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.awesome-apps .right-part-advantages__awesome-apps p {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
