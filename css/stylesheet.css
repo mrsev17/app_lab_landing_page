@@ -145,6 +145,9 @@ a {
 
     --accent-color-one: #2500f9;
     --logo-part-color: #fcae61;
+    --color-small-titles: #f55767;
+    --color-small-titles-two: #2563ff;
+    --color-small-titles-three: #40975f;;
 
     --section-titles: 36px;
     --logo-size: 30px;
@@ -380,7 +383,7 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     gap: 100px;
 }
 .awesome-apps .left-part-advantages__awesome-apps .first-icon__awesome-apps img {
-    margin-top: 30px;
+    margin-top: 25px;
 }
 .awesome-apps .left-part-advantages__awesome-apps .second-icon__awesome-apps {
     margin-top: -40px;
@@ -421,6 +424,15 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     max-width: 300px;
 }
 
+.awesome-apps .wrapper-advantages__awesome-apps .one-item-advantages__awesome-apps h3 {
+    color: var(--color-small-titles);
+}
+.awesome-apps .wrapper-advantages__awesome-apps .two-item-advantages__awesome-apps h3 {
+    color: var(--color-small-titles-two);
+}
+.awesome-apps .wrapper-advantages__awesome-apps .three-item-advantages__awesome-apps h3 {
+    color: var(--color-small-titles-three);
+}
 
 
 
