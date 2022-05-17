@@ -434,7 +434,98 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     color: var(--color-small-titles-three);
 }
 
+/* Jackpots section */
 
+.jackpots {
+    margin-top: 150px;
+}
+
+.jackpots .wrapper-first__jackpots {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.jackpots .wrapper-first__jackpots .text-item__jackpots {
+    border-left: 1px solid grey;
+    margin-right: 80px;
+}
+
+.jackpots .wrapper-first__jackpots .title-item__jackpots h2 {
+    font-size: var(--section-titles);
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.jackpots .wrapper-first__jackpots .text-item__jackpots p {
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    margin-top: 50px;
+    opacity: var(--opacity-text);
+    padding-left: 100px;
+}
+
+.jackpots .wrapper-second__jackpots {
+    margin-top: 129px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 120px;
+}
+
+.jackpots .title-second__jackpots {
+    margin-top: 25px;
+}
+
+.jackpots .text-second__jackpots {
+    margin-top: 15px;
+}
+
+.jackpots .text-second__jackpots p {
+    opacity: var(--opacity-text);
+    width: 100%;
+    max-width: 450px;
+}
+
+.jackpots #title-one__jackpots {
+    color: var(--color-small-titles)
+}
+.jackpots #title-two__jackpots {
+    color: var(--color-small-titles-two);
+}
+.jackpots #title-three__jackpots {
+    color: var(--color-small-titles-three);
+}
+.jackpots #background-icon-three__jackpots {
+    background-image: url("../assets/icons/vector_background.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 15px 15px;
+}
+.jackpots #background-icon-two__jackpots {
+    background-image: url("../assets/icons/prototyping_background.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 15px 15px;
+}
+.jackpots #background-icon-one__jackpots {
+    background-image: url("../assets/icons/speed_background.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 15px 15px;
+}
+.jackpots #icon-bill {
+    margin-left: 4px;
+}
+
+/* Integration */
+
+.integration {
+    margin-top: 100px;
+}
 
 
 
