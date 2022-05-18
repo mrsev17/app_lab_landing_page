@@ -765,6 +765,9 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
 }
 .features .shape-back-iphone__features {
     background-image: url("../assets/images/Ellipse_6.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 10px;
 }
 .features .right-part-content__features .background-iphone__features {
     background-image: url("../assets/images/back_smart_iphone.png");
@@ -783,7 +786,9 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     margin-left: 200px;
 }
 
-
+.features .see-all {
+    padding: 15px 60px 15px 60px;
+}
 
 
 
