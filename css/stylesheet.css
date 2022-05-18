@@ -572,7 +572,6 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
 
 .integration .left-item__integration figure img {
     width: 100%;
-    /* Style for "Vector Sma" */
     max-width: 598px;
     max-height: 547px;
 }
@@ -585,32 +584,204 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
 
 .advantages {
     margin-top: 73px;
-    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.advantages .title__advantages {
+    margin: 140px auto 0;
+    font-size: var(--small-titles-size);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.advantages .text__advantages {
+    margin: 35px auto;
+    font-size: var(--text-size);
+    opacity: var(--opacity-text);
+    text-align: center;
+    width: 100%;
+    max-width: 660px;
+}
+
+.advantages .wrapper-first-content__advantages {
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+    gap: 92px;
+}
+.advantages .wrapper-first-content__advantages .background-one__advantages {
+    background-image: url("../assets/icons/Ellipse_2_copy_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advantages .wrapper-first-content__advantages .background-two__advantages {
+    background-image: url("../assets/icons/Ellipse_2_copy_4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advantages .wrapper-first-content__advantages .background-three__advantages {
+    background-image: url("../assets/icons/Ellipse_2_copy_5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advantages .wrapper-first-content__advantages figure img {
+    margin: 0 auto;
+    padding: 14px 14px;
+}
+.advantages .wrapper-first-content__advantages h3 {
+    margin-top: 38px;
+    text-align: center;
+}
+.advantages .wrapper-first-content__advantages p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.advantages .wrapper-second-content__advantages {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    gap: 92px;
 }
 
 
+.advantages .wrapper-second-content__advantages h3 {
+    margin-top: 38px;
+    text-align: center;
+}
+.advantages .wrapper-second-content__advantages p {
+    margin-top: 15px;
+    text-align: center;
+}
+.advantages .wrapper-second-content__advantages figure img {
+    margin: 0 auto;
+    padding: 14px 14px;
+}
+
+.advantages .wrapper-second-content__advantages .background-four__advantages {
+    background-image: url("../assets/icons/back_icon_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.advantages .wrapper-second-content__advantages .background-five__advantages {
+    background-image: url("../assets/icons/back_icon_3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advantages .wrapper-second-content__advantages .background-six__advantages {
+    background-image: url("../assets/icons/back_icon_pink.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
+/* === Features === */
 
+.features {
+    margin-top: 180px;
+}
+.features .title-description__features h2 {
+    font-size: var(--section-titles);
+    width: 100%;
+    max-width: 400px;
+}
+.features .title-description__features p {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 450px;
+    font-size: var(--text-size);
+    opacity: var(--opacity-text)
+}
 
+.features .wrapper-content__features {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.features .left-part-up-content__features {
+    display: flex;
+    gap: 107px;
+}
+.features .left-part-down-content__features {
+    display: flex;
+    gap: 107px;
+}
+.features .wrapper-content__features .back-icon-one__features {
+    background-image: url("../assets/icons/Ellipse_2_copy_3.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.features .left-part-up-content__features figure img {
+    padding: 16px 16px;
+}
 
+.features .left-part-up-content__features h3 {
+    margin-top: 36px;
+    text-align: left;
+}
 
+.features .left-part-up-content__features p {
+    margin-top: 15px;
+    text-align: left;
+}
+.features .wrapper-content__features .back-icon-two__features {
+    background-image: url("../assets/icons/back_icon_2.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
+.features .left-part-down-content__features figure img {
+    padding: 16px 16px;
+}
 
+.features .wrapper-content__features .back-icon-three__features {
+    background-image: url("../assets/icons/back_icon_2.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
+.features .left-part-down-content__features h3 {
+    margin-top: 36px;
+    text-align: left;
+}
 
+.features .left-part-down-content__features p {
+    margin-top: 15px;
+    text-align: left;
+}
 
+.features .wrapper-content__features .back-icon-four__features {
+    background-image: url("../assets/icons/back_icon_3.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
-
-
-
-
-
-
-
-
-
+.features .right-part-content__features #image-iphone-main__features {
+    width: 100%;
+    max-width: 461px;
+}
+.features .shape-back-iphone__features {
+    background-image: url("../assets/images/Ellipse_6.png");
+}
+.features .right-part-content__features .background-iphone__features {
+    background-image: url("../assets/images/back_smart_iphone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: -10px;
+    background-size: 75%;
+}
+.features .wrapper-left-part__features {
+    width: 50%;
+}
+.features .right-part-content__features {
+    width: 50%;
+}
+.features .background-iphone__features .back-right-part__features {
+    margin-left: 200px;
+}
 
 
 
