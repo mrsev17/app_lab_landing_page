@@ -155,7 +155,7 @@ a {
     --text-size: 16px;
     --main-title-font: 60px;
 
-    --opacity-text: 0.7;
+    --opacity-text: 0.6;
 }
 
 /* ===== Main Styles ===== */
@@ -851,4 +851,97 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     color: #e2eaed;
     opacity: 0.99;
     border-radius: 24px;
+}
+
+.plan .wrapper-card__plan {
+    margin: 0 auto;
+    background-color: #ffffff;
+    background-image: url("../assets/images/Rectangle_5_copy_3.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    max-width: 317px;
+    max-height: 650px;
+    border-radius: 9px;
+    box-shadow: 4px 55px 62px rgba(144, 163, 177, 0.18);
+    border: 1px solid transparent;
+}
+.plan .wrapper-card__plan:hover {
+    border: 1px solid #bfbfbf;
+    transition: 0.7s;
+}
+.plan .main-value__plan {
+    padding-top: 69px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+}
+.plan .main-value__plan span {
+    font-size: 18px;
+    opacity: var(--opacity-text);
+}
+
+.plan .business-value__plan {
+    margin: 0 auto;
+    text-align: center;
+    font-size: var(--small-titles-size);
+}
+.plan .for-description__plan {
+    text-align: center;
+    margin: 0 auto;
+    opacity: var(--opacity-text);
+}
+.plan .drag-builder__plan {
+    margin-top: 70px;
+    text-align: center;
+    opacity: var(--opacity-text);
+}
+
+.plan .templates-builder__plan {
+    margin-top: 35px;
+    text-align: center;
+    opacity: var(--opacity-text);
+}
+.plan .button-container__plan {
+    margin: 63px 0 18px;
+    padding: 0 0 50px;
+    text-align: center;
+}
+.plan .free-trial__plan {
+    border: 2px solid var(--accent-color-one);
+    padding: 13px 28px;
+    border-radius: 28px;
+
+}
+.plan .free-trial__plan:hover {
+    padding: 15px 30px;
+    border-radius: 28px;
+    color: white;
+    background-color: var(--accent-color-one);
+    transition: 0.6s;
+}
+.plan .subscribe-plans__plan {
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plan .monthly-business__plan {
+    width: 35%;
+}
+.plan .monthly-master__plan {
+    width: 35%;
+}
+.plan .button-container-free-trial__plan {
+    padding: 19px 0 20px;
+    text-align: center;
+    width: 100%;
+    max-height: 100px;
+
+
+}
+.plan .start-trial__plan {
+    padding: 10px  26px;
+    opacity: var(--opacity-text);
 }
