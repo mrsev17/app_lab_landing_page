@@ -790,77 +790,65 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     padding: 15px 60px 15px 60px;
 }
 
+/* Section .plan */
 
-
-/* Media Queries / Adaptive breakpoint */
-/*
-@media screen and (min-width: 320px) and (max-width: 380px) {
-
-    header {
-        max-width: 420px;
-        margin-top: 10px;
-        padding-bottom: 30px;
-    }
-
-    header .container-logo-nav__header {
-        padding: 0;
-        flex-direction: column;
-    }
-
-    header .title-logo {
-        margin-left: 38px;
-    }
-
-    header nav ul {
-        flex-direction: column;
-    }
-
-    .container {
-        max-width: 420px;
-        padding: 0 15px;
-    }
-
-    header .wrapper-main-content__header {
-        flex-direction: column;
-        gap: 0;
-    }
-
-    header .wrapper-main-content__header .wrapper-buttons__header {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    header .wrapper-main-content__header .wrapper-buttons__header a:first-child {
-        border: 2px solid var(--accent-color-one);
-        width: 100%;
-        padding: 20px 40px 20px 95px;
-    }
-
-    header .wrapper-main-content__header .wrapper-buttons__header a:last-child {
-        border: 2px solid var(--accent-color-one);
-        width: 100%;
-        padding: 20px 20px 20px 70px;
-    }
-
-    header .text-editor-choice {
-        margin-top: 20px;
-    }
-
-    header .text-editor-choice figure img {
-        margin-top: 0;
-        margin-left: 0;
-    }
-
-    header .text-editor-choice p {
-        padding: 0;
-        margin-top: 5px;
-    }
-
-    header .wrapper-main-content__header .main-title__header h1 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-
+.plan {
+    margin-top: 180px;
+    padding-bottom: 100px;
 }
- */
+.plan .title-description__plan h2 {
+    font-size: var(--section-titles);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.plan .title-description__plan p {
+    text-align: center;
+    width: 100%;
+    margin: 20px auto 0;
+    max-width: 650px;
+    font-size: var(--text-size);
+    opacity: var(--opacity-text);
+}
+
+.plan .switch-button__plan {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid #ebebeb;
+    width: 100%;
+    max-width: 280px;
+    margin: 82px auto 0;
+    border-radius: 29px;
+    padding: 3px 3px;
+}
+
+.plan #monthly__plan {
+    background-color: transparent;
+    color: black;
+    border: none;
+    opacity: var(--opacity-text);
+    font-size: var(--text-size);
+    padding: 15px 30px 15px 30px;
+}
+.plan #monthly__plan:hover {
+    background-color: var(--accent-color-one);
+    color: #e2eaed;
+    opacity: 0.99;
+    border-radius: 24px;
+}
+.plan #annually__plan {
+    background-color: transparent;
+    color: black;
+    border: none;
+    opacity: var(--opacity-text);
+    font-size: var(--text-size);
+    padding: 15px 30px 15px 30px;
+}
+.plan #annually__plan:hover {
+    background-color: var(--accent-color-one);
+    color: #e2eaed;
+    opacity: 0.99;
+    border-radius: 24px;
+}
