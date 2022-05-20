@@ -824,33 +824,21 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     padding: 3px 3px;
 }
 
-.plan #monthly__plan {
-    background-color: transparent;
-    color: black;
-    border: none;
-    opacity: var(--opacity-text);
-    font-size: var(--text-size);
-    padding: 15px 30px 15px 30px;
-}
+.plan #annually__plan:hover,
 .plan #monthly__plan:hover {
     background-color: var(--accent-color-one);
     color: #e2eaed;
     opacity: 0.99;
     border-radius: 24px;
 }
+.plan #monthly__plan,
 .plan #annually__plan {
     background-color: transparent;
     color: black;
     border: none;
     opacity: var(--opacity-text);
     font-size: var(--text-size);
-    padding: 15px 30px 15px 30px;
-}
-.plan #annually__plan:hover {
-    background-color: var(--accent-color-one);
-    color: #e2eaed;
-    opacity: 0.99;
-    border-radius: 24px;
+    padding: 15px 29px 15px 29px;
 }
 
 .plan .wrapper-card__plan {
@@ -945,6 +933,8 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     padding: 10px  26px;
     opacity: var(--opacity-text);
 }
+
+/* === Footer === */
 
 .footer {
     background-color: #09142e;
