@@ -945,3 +945,50 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     padding: 10px  26px;
     opacity: var(--opacity-text);
 }
+
+.footer {
+    background-color: #09142e;
+}
+.footer .logo__footer {
+    padding-top: 60px;
+}
+.footer .logo__footer h2 {
+    text-align: center;
+    color: #fcae61;
+    font-size: var(--logo-size);
+    font-weight: 700;
+}
+.footer .logo__footer h2 span {
+    color: #e2eaed;
+}
+.footer .links-services__footer {
+    margin-top: 30px;
+}
+.footer .links-services__footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+}
+.footer .links-services__footer ul li a {
+    color: #e2eaed;
+}
+.footer .links-services__footer ul li a:hover {
+    color: #fcae61;
+    transition: .5s;
+}
+.footer .icons-links__footer {
+    margin-top: 50px;
+}
+.footer .icons-links__footer figure img {
+    margin: 0 auto;
+}
+.footer .copyright__footer p {
+    margin-top: 60px;
+    text-align: center;
+    color: #e2eaed;
+    opacity: var(--opacity-text);
+    font-size: 14px;
+}
+.footer .copyright__footer {
+    padding-bottom: 60px;
+}
