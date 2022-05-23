@@ -1,0 +1,99 @@
+@media (max-width: 980px) {
+    .container {
+        max-width: 980px;
+    }
+    header #for-free {
+        padding: 14px 26px;
+    }
+    .features .background-iphone__features .back-right-part__features {
+        margin-left: 0;
+    }
+    .features .right-part-content__features .background-iphone__features {
+        background-size: 80%;
+    }
+    .features .shape-back-iphone__features {
+        background-image: url("../assets/images/Ellipse_6.png");
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position-y: 0;
+        background-position-x: 10px;
+    }
+}
+
+@media (max-width: 840px) {
+    .container {
+        max-width: 840px;
+    }
+    .btn {
+        padding: 15px 26px 15px 26px;
+        border-radius: 30px;
+        border: 2px solid var(--accent-color-one);
+    }
+    header {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .awesome-apps .wrapper-main-content__awesome-apps {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        gap: 35px;
+    }
+    .awesome-apps .wrapper-companies-like__awesome-apps {
+        gap: 30px;
+    }
+    .jackpots .wrapper-first__jackpots {
+        gap: 80px;
+    }
+    .jackpots .wrapper-first__jackpots .text-item__jackpots {
+        margin-right: 0;
+    }
+    .jackpots .wrapper-second__jackpots {
+        margin-top: 50px;
+        gap: 30px;
+    }
+
+    .awesome-apps .wrapper-advantages__awesome-apps {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
+    .awesome-apps .left-part-advantages__awesome-apps {
+        display: flex;
+        flex-direction: column;
+        gap: 112px;
+    }
+    .awesome-apps .container-background__awesome-apps {
+        background-position-y: 0;
+        margin-top: 50px;
+    }
+    .awesome-apps .right-part-advantages__awesome-apps {
+        gap: 10px;
+    }
+    header .text-editor-choice {
+        margin-top: 60px;
+    }
+    header #for-free {
+        padding: 10px 14px;
+    }
+    header nav ul {
+        gap: 12px;
+    }
+    header .wrapper-main-content__header .wrapper-buttons__header {
+        margin-top: 60px;
+        display: flex;
+        gap: 60px;
+    }
+    .integration {
+        margin-top: 50px;
+    }
+    .integration .wrapper__integration {
+        gap: 50px;
+    }
+    .integration .wrapper__integration .title__integration h2 {
+        margin-top: 30px;
+        font-size: var(--section-titles);
+        width: 100%;
+        max-width: 349px;
+    }
+}
