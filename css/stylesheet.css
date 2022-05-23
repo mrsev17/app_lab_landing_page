@@ -231,8 +231,12 @@ header nav ul {
     display: flex;
     gap: 38px;
 }
-
-.header .wrapper-navigation__header {
+header nav ul li a:hover {
+    color: var(--accent-color-one);
+    border-bottom: 2px solid var(--accent-color-one);
+    transition: 0.3s;
+}
+header .wrapper-navigation__header {
     display: flex;
     justify-content: flex-end;
 }
@@ -834,6 +838,7 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     color: #e2eaed;
     opacity: 0.99;
     border-radius: 24px;
+    transition: 0.5s;
 }
 .plan #monthly__plan,
 .plan #annually__plan {
@@ -967,11 +972,6 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     width: 100%;
     max-width: 730px;
 }
-.download .wrapper-load-buttons__download {
-    /*
-    margin-top: 50px;
-     */
-}
 
 .download .wrapper-load-buttons__download {
     margin-bottom: 50px;
@@ -979,6 +979,8 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
     gap: 32px;
     justify-content: flex-start;
 }
+
+
 .download .left-part__download {
     width: 50%;
 }
@@ -1024,7 +1026,8 @@ header .wrapper-main-content__header .wrapper-buttons__header a:hover {
 }
 .footer .links-services__footer ul li a:hover {
     color: #fcae61;
-    transition: .5s;
+    border-bottom: 2px solid #fcae61;
+    transition: .4s;
 }
 .footer .icons-links__footer {
     margin-top: 50px;
