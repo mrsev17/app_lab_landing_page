@@ -52,7 +52,9 @@
         margin-top: 50px;
         gap: 30px;
     }
-
+    .jackpots {
+        margin-top: 50px;
+    }
     .awesome-apps .wrapper-advantages__awesome-apps {
         margin-top: 20px;
         display: flex;
@@ -95,5 +97,48 @@
         font-size: var(--section-titles);
         width: 100%;
         max-width: 349px;
+    }
+    .advantages .title__advantages {
+        margin: 40px auto 0;
+    }
+    .advantages .wrapper-first-content__advantages {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .features {
+        margin-top: 100px;
+    }
+    .features .title-description__features h2 {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    .features .title-description__features p {
+        margin: 0 auto;
+        max-width: 650px;
+    }
+    .features .left-part-up-content__features {
+        gap: 20px;
+    }
+    .features .left-part-down-content__features {
+        gap: 20px;
+    }
+    .features .right-part-content__features #image-iphone-main__features {
+        width: 105%;
+    }
+    .plan .subscribe-plans__plan {
+        margin-top: 39px;
+        display: flex;
+        gap: 40px;
+    }
+    .download .container {
+        padding: 0 30px;
+    }
+    .download .right-part__download img {
+        margin: 200px auto 0;
+        width: 100%;
+        max-width: 844px;
+        max-height: 472px;
     }
 }
