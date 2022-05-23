@@ -636,6 +636,42 @@
     }
 }
 
+@media (max-width: 494px) {
+    .container {
+        max-width: 494px;
+    }
+    header .wrapper-main-content__header {
+        margin-top: 0;
+        flex-direction: column;
+    }
+    header .text-editor-choice {
+        margin: 40px auto;
+    }
+    header .wrapper-main-content__header .main-title__header h1 {
+        text-align: center;
+    }
+    header .wrapper-main-content__header .main-description__header p {
+        text-align: center;
+    }
+    header .wrapper-main-content__header .wrapper-buttons__header {
+        gap: 50px;
+        justify-content: center;
+    }
+    .btn {
+        padding: 16px 24px;
+        text-align: center;
+    }
+    header .wrapper-main-content__header .picture__header img {
+        margin: 0 auto;
+    }
+    .awesome-apps .left-part-advantages__awesome-apps {
+        gap: 165px;
+    }
+    .awesome-apps .right-part-advantages__awesome-apps {
+        gap: 20px;
+    }
+}
+
 @media (max-width: 428px) {
     .container {
         max-width: 428px;
@@ -805,5 +841,61 @@
         font-weight: 700;
         border-right: 2px solid #fcae61;
         border-left: 2px solid #e2eaed;
+    }
+}
+
+@media (max-width: 370px) {
+    .container {
+        max-width: 370px;
+    }
+    .awesome-apps .left-part-advantages__awesome-apps {
+        gap: 135px;
+        width: 35%;
+    }
+    .integration .learn-more__integration {
+        padding: 20px 40px;
+        margin: 40px auto 0;
+        text-align: center;
+        width: 100%;
+    }
+    .features .left-part-up-content__features {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .features .wrapper-content__features .left-part-down-content__features {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .features .see-all {
+        padding: 15px 70px;
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+    .awesome-apps .left-part-advantages__awesome-apps {
+        gap: 170px;
+        width: 40%;
+    }
+    .awesome-apps .wrapper-main-content__awesome-apps .text__awesome-apps p {
+        max-width: none;
+        text-align: center;
+        margin: 20px auto 20px;
+    }
+    .integration .learn-more__integration {
+        padding: 20px 30px;
+    }
+    .download .wrapper-load-buttons__download {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        justify-content: center;
+        align-items: center;
     }
 }
