@@ -191,3 +191,152 @@
         text-align: center;
     }
 }
+
+@media (max-width: 746px) {
+    .container {
+        max-width: 746px;
+    }
+    header nav ul {
+        display: none;
+    }
+    header .wrapper-main-content__header {
+        margin-top: 0;
+    }
+    header .wrapper-main-content__header .wrapper-buttons__header {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    header .wrapper-main-content__header .picture__header img {
+        margin-top: 50px;
+    }
+    .integration .left-item__integration figure img {
+        margin-top: 50px;
+        width: 100%;
+        max-width: 598px;
+        max-height: 547px;
+    }
+    .plan {
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+    .download {
+        margin-top: 0;
+    }
+    .features .right-part-content__features {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 718px) {
+    .container {
+        max-width: 718px;
+    }
+    .btn {
+        padding: 15px 18px 15px 18px;
+    }
+    .awesome-apps .left-part-advantages__awesome-apps {
+        display: flex;
+        flex-direction: column;
+        gap: 135px;
+    }
+    .awesome-apps .container-background__awesome-apps {
+        background-position-y: 0;
+        margin-top: 120px;
+    }
+    .awesome-apps .container-background__awesome-apps {
+        background-size: 100%;
+        background-position-y: 100px;
+    }
+    .download .title__download h2 {
+        margin: 40px auto 0;
+        font-size: 48px;
+        text-align: left;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 600px;
+    }
+    .btn {
+        padding: 8px 10px 8px 10px;
+        font-size: 14px;
+    }
+    .awesome-apps .wrapper-main-content__awesome-apps {
+        margin-top: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .awesome-apps .wrapper-advantages__awesome-apps {
+        margin-top: 20px;
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+    }
+    .awesome-apps .right-part-advantages__awesome-apps {
+        gap: 70px;
+    }
+    .awesome-apps .wrapper-advantages__awesome-apps .one-item-advantages__awesome-apps h3 {
+        font-size: var(--section-titles);
+    }
+    .awesome-apps .wrapper-advantages__awesome-apps .three-item-advantages__awesome-apps h3 {
+        font-size: var(--section-titles);
+    }
+    .awesome-apps .wrapper-advantages__awesome-apps .two-item-advantages__awesome-apps h3 {
+        font-size: var(--section-titles);
+    }
+    .awesome-apps .right-part-advantages__awesome-apps p {
+        margin-top: 10px;
+        width: 100%;
+        max-width: 400px;
+        font-size: 18px;
+    }
+    .awesome-apps .wrapper-main-content__awesome-apps .title__awesome-apps h2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .awesome-apps .wrapper-main-content__awesome-apps .text__awesome-apps p {
+        max-width: 370px;
+        margin: 20px auto 20px;
+    }
+    .jackpots .wrapper-first__jackpots {
+        gap: 1px;
+    }
+    .jackpots .wrapper-first__jackpots .title-item__jackpots h2 {
+        text-align: center;
+    }
+    .jackpots .wrapper-first__jackpots .text-item__jackpots {
+        margin-right: 0;
+        border-left: none;
+    }
+    .jackpots .wrapper-first__jackpots .text-item__jackpots p {
+        text-align: center;
+        margin-top: 100px;
+        padding-left: 20px;
+    }
+    .features .title-description__features h2 {
+        margin: 0 auto;
+        max-width: none;
+        text-align: center;
+    }
+    .features .title-description__features p {
+        margin: 0 auto;
+        max-width: none;
+        text-align: center;
+    }
+    .plan .monthly-business__plan {
+        width: 100%;
+    }
+    .plan .monthly-master__plan {
+        width: 100%;
+    }
+    .features .see-all {
+        padding: 15px 150px;
+        width: 100%;
+        max-width: 600px;
+        text-align: center;
+    }
+}
