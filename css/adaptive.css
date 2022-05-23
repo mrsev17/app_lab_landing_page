@@ -20,7 +20,7 @@
     }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 898px) {
     .container {
         max-width: 840px;
     }
@@ -140,5 +140,54 @@
         width: 100%;
         max-width: 844px;
         max-height: 472px;
+    }
+}
+
+@media (max-width: 796px) {
+    .container {
+        max-width: 796px;
+        padding: 0 20px;
+    }
+    header .wrapper-main-content__header .wrapper-buttons__header {
+        margin-top: 60px;
+        display: flex;
+        gap: 30px;
+    }
+    .integration .wrapper__integration .title__integration h2 {
+        margin-top: 10px;
+        max-width: 450px;
+    }
+    .integration .wrapper__integration .text__integration p {
+        margin-top: 10px;
+        width: 100%;
+        max-width: 450px;
+    }
+    .features {
+        margin-top: 70px;
+    }
+    .features .wrapper-content__features {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .features .wrapper-left-part__features {
+        width: 100%;
+    }
+    .features .right-part-content__features {
+        width: 100%;
+    }
+    .features .right-part-content__features #image-iphone-main__features {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .features .button-see-all__features {
+        text-align: center;
+        margin: 40px auto;
+    }
+    .features .see-all {
+        padding: 15px 60px 15px 60px;
+        text-align: center;
     }
 }
